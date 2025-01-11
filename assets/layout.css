@@ -1,5 +1,5 @@
 
-
+/* banner section styling */
 .banner{
     display:flex;
     justify-content: flex-start;
@@ -61,6 +61,8 @@
     
     
 }
+
+/* vision section styling */
 .vision-main{
     margin-left: 160px;
     margin-right: 160px;
@@ -148,6 +150,7 @@
 .bt3{
     background-color:#FFC239 ;
 }
+/* news section styling */
 .news{
     margin-left: 160px;
     margin-right: 160px; 
@@ -242,4 +245,90 @@
 }
 .bt4{
     background-color: #006A50;
+}
+
+/* Donate section styling */
+.donate{
+    width:1280px;
+    height:464px;
+    margin-left: 160px;
+    margin-right: 160px; 
+    margin-top: 80px;
+    
+}
+.donate-parent{
+    width:1271px;
+    height:128px;
+    display:flex;
+    Padding-right:104px;
+    padding-left:104px;
+    gap:20px;
+    list-style: none;
+   
+
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.child{
+    width:252px;
+    height:128px;
+    
+    border:2px solid #c6c2c2;
+    
+    border-radius:16px ;
+    padding:0px;
+    
+}
+.donate-title{
+    width:1280px;
+    height:120px;
+    margin-bottom: 40px;
+}
+.text-center{
+    text-align: center;
+}
+.money{
+    text-align: center;
+    font-family: "Fira Sans", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+  color:#0E0E0E;
+  opacity: 80%;
+}
+
+.amount-input {
+    display:flex;
+    margin-left: 40px;
+    margin-top:24px;
+    margin-bottom: 15px;
+    
+    width: 1032px; 
+    height: 64px; 
+    padding: 10px; 
+    font-size: 16px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    text-align: center;
+}
+.other{
+    margin-bottom: 10px;
+    margin-left: 50px;
+    border-bottom: #c6c2c2;
+    
+}
+.extra{
+    display:block;
+    align-items: center;
+    
+    margin-top: 25px;
+}
+.donate-button{
+    width:151px;
+    height:56px;
+    margin-left: 550px;
 }
