@@ -58,10 +58,50 @@
     border-radius: 8px;
     border:none;
     text-align: center;
-    
-    
+  
 }
 
+.button-greetings:hover{
+    background-color: #0092b3;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Quote section */
+.quote{
+    background-image: url(quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    width:1280px
+    height:256px;
+    margin-left: 160px;
+    margin-right: 160px; 
+    margin-top: 80px;
+    
+
+}
+.quote-inner{
+    width:1232px;
+    height:160px;
+    padding-bottom: 40px;
+}
+.main-content{
+    margin-bottom: 15px;
+}
+.quote-content{
+    width:1232px;
+    height:196px;
+    margin-bottom: 0;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    gap:0;
+
+}
+.quote-person{
+   
+    margin-top: 50px;
+}
 /* vision section styling */
 .vision-main{
     margin-left: 160px;
@@ -71,7 +111,7 @@
     
 }
 
-/* vision styling */
+
 .vision-container{
     display:flex;
     gap:24px;
@@ -80,11 +120,16 @@
     margin-bottom: 24px;
     
 }
+
 .vision{
     
     padding:30px;
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.vision:hover{
+    background-color: chocolate;
 }
 .main-title{
     width:1280px;
@@ -105,6 +150,7 @@
   font-size: 16px;
   color:#0E0E0E;
   opacity:70%;
+  
 
 }
 .vision-title{
@@ -141,6 +187,12 @@
   border-radius: 8px;
   
 }
+.btn-primary:hover{
+    background-color: #0092b3;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+
+}
 .bt1{
     background-color: #5490F5;
 }
@@ -152,6 +204,8 @@
 }
 /* news section styling */
 .news{
+    width:1280px
+    height:395px;
     margin-left: 160px;
     margin-right: 160px; 
     margin-top: 80px;
@@ -341,7 +395,15 @@
   font-size: 16px;
   color:#FFFFFF;
   border-radius: 8px;
+}
+.btn-donate:hover{
+    background-color: #0092b3;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 
+}
+.child:hover{
+    background-color: chocolate;
 }
 /* newsletter section styling */
 .newsletter{
