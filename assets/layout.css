@@ -332,3 +332,48 @@
     height:56px;
     margin-left: 550px;
 }
+.btn-donate{
+    width:122px;
+    height:56px;
+    font-family: "Fira Sans", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16px;
+  color:#FFFFFF;
+  border-radius: 8px;
+
+}
+/* newsletter section styling */
+.newsletter{
+    width:1280px
+    height:395px;
+    margin-left: 160px;
+    margin-right: 160px; 
+    margin-top: 80px;
+    background: #C6E4D6;
+    border-radius: 24px; 
+    
+    
+}
+.newsletter-title{
+    padding-top: 50px;
+}
+.newsletter-content{
+    margin-left: 100px;
+}
+.esubscription{
+    background-color: white;
+    width:750px;
+    height:56px;
+    margin-left: 150px;
+    
+  
+    
+}
+.esubscription::placeholder {
+    color:#0E0E0E;
+  opacity: 30%;
+  font-family: "Fira Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+}
