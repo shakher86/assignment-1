@@ -1,0 +1,123 @@
+
+
+.banner{
+    display:flex;
+    justify-content: flex-start;
+    
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 100px;
+
+    background-color: #C6E4D6;
+    width: 1280px;
+    height:560px;
+    border-radius: 24px;
+    
+   
+}
+
+.banner-content{
+   max-width: 622px;
+   margin-left: 90px;
+   margin-top: 117px;
+   margin-bottom: 0px;
+}
+.banner-image{
+    max-width: 473px;
+    margin-right: 90px;
+    margin-top: 117px;
+}
+.banner-greeting{
+    font-size: 24px;
+    font-family: "Fira Sans", serif;
+  font-weight: 100;
+  font-style: normal;
+  margin-bottom: 15px;
+  color:#0E0E0E;
+  opacity: 50%;
+}
+.banner-description{
+    font-size: 56px;
+    font-family: "Fira Sans", serif;
+  font-weight: 700;
+  font-style: normal;
+  margin-top:0;
+  margin-bottom: 0px;
+}
+.button-greetings{
+    background-color: #006A50;
+    width:270px;
+    height:56px;
+    margin-top: 24px;
+    margin-bottom: 0px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: "Fira Sans", serif;
+  font-weight: 600;
+    padding:34px 34px;
+    border-radius: 8px;
+    border:none;
+    text-align: center;
+    
+    
+}
+.vision-main{
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+/* vision styling */
+.vision-container{
+    display:flex;
+    gap:24px;
+    width:1280px;
+    height: 325px;
+    margin-bottom: 24px;
+    
+}
+.vision{
+    
+    padding:30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.vision-main-title{
+    width:1280px;
+    height: 48px;
+    font-family: "Fira Sans", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+}
+
+
+.vision-title-description{
+    width:1280px;
+    height: 48px;
+    font-family: "Fira Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  color:#0E0E0E;
+  opacity:70%;
+
+}
+.vision-title{
+    font-family: "Fira Sans", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size:20px;
+  opacity: 80%;
+}
+.vision-description{
+    font-family: "Fira Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  opacity: 70%;
+}
+vision1-bg{
+    background: #5490F5;
+    
+    opacity:20%;
+}
